@@ -1,0 +1,44 @@
+<!-- index.html မှာ ထည့်ရန် -->
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ကျောင်း Time Table - GitHub</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- SheetJS ကို CDN ကနေ ခေါ်မယ် -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-calendar-alt"></i> ကျောင်းစာချိန်ဇယား</h1>
+            <div class="file-info" id="fileInfo"></div>
+        </header>
+
+        <div class="controls">
+            <button id="loadExcelBtn" class="btn">
+                <i class="fas fa-file-excel"></i> Excel ဖိုင်ဖွင့်မည်
+            </button>
+            <select id="sheetSelect" class="sheet-select">
+                <option value="">Sheet ရွေးပါ</option>
+            </select>
+        </div>
+
+        <div class="timetable-container" id="timetableContainer">
+            <div class="loading" id="loading">
+                <i class="fas fa-spinner fa-spin"></i> Excel ဖိုင်ဖတ်နေသည်...
+            </div>
+        </div>
+
+        <div class="github-link">
+            <a href="https://github.com/thtut7430-prog/Skibidi" target="_blank">
+                <i class="fab fa-github"></i> GitHub Repository
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

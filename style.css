@@ -1,0 +1,89 @@
+/* style.css မှာ အောက်ပါတွေ ထပ်ထည့်ပါ */
+
+.file-info {
+    color: #4a5568;
+    font-size: 1.1em;
+    margin-top: 10px;
+    padding: 10px;
+    background: #f7fafc;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.sheet-select {
+    padding: 10px 20px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-family: 'Padauk', sans-serif;
+    font-size: 1em;
+    background: white;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+.sheet-select:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.loading {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.2em;
+    color: #667eea;
+}
+
+.loading i {
+    margin-right: 10px;
+}
+
+.error-message {
+    text-align: center;
+    padding: 50px;
+    color: #e53e3e;
+    background: #fff5f5;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.error-message i {
+    font-size: 3em;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.github-link {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #e2e8f0;
+}
+
+.github-link a {
+    color: #4a5568;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.github-link a:hover {
+    color: #667eea;
+}
+
+.github-link i {
+    margin-right: 8px;
+    font-size: 1.3em;
+}
+
+/* Table styling အသစ်များ */
+.timetable td {
+    max-width: 200px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.timetable td:first-child {
+    background: #f7fafc;
+    font-weight: bold;
+    color: #2d3748;
+}
