@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     loading.style.display = 'none';
     
     // Excel ဖိုင်လမ်းကြောင်း (GitHub raw URL)
-    const excelFileUrl = 'https://raw.githubusercontent.com/thtut7430-prog/Skibidi/main/Civil.xlsx';
+    const excelFileUrl = 'https://raw.githubusercontent.com/thtut7430-prog/timetable-web/main/Civil.xlsx';
     
     document.getElementById('loadExcelBtn').addEventListener('click', function() {
         loadExcelFile(excelFileUrl);
@@ -145,4 +145,5 @@ function generateSummaryCards(data) {
             </div>
         </div>
     `;
+
 }
